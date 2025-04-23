@@ -9,7 +9,7 @@ The project started out as a `Job Security` predictor, but after much analysis a
 **Correlation Matrix**
 
 A correlation matrix helps understand relationships between numerical features. The values range from `-1` to `+1`, with `-1` meaning perfect negative correlation, `0` meaning no Linear relationship and `+1` meaning perfect positive correlation.
-It helps picture how well our `target column` (`Salary_Chbages`) relates with the other columns and how much each may contribute to the final decision. The corr() function found very little correlation between all our columns even the target coulumn, with all values lying between `0.01` and `-0.01`. 
+It helps picture how well our `target column` (`Salary_Changes`) relates with the other columns and how much each may contribute to the final decision. The corr() function found very little correlation between all our columns even the target coulumn, with all values lying between `0.01` and `-0.01`. 
 
 ![Correlation Matrix](PICTURES/correlation_matrix.png)
 
