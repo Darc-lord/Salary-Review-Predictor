@@ -14,13 +14,16 @@ It helps picture how well our `target column` (Heart Disease) relates with the o
 ![Correlation Matrix](PICTURES/correlation_matrix.png)
 
 **Frequency of each Sector**
+
 ![Sector](PICTURES/Sector.png)
 
 **Frequency of each Salary Review Class**
+
 ![Salary Review Classes](PICTURES/Frequency_of_salary_change.png)
 
-**Frequency of each Salary Review Class**
-![Salary Review Classes vs Job Security](PICTURES/Frequency_of_Job_Security_agaianst_salary_change.png)
+**Frequency of each Salary Review Class Against Job Security**
+
+![Salary Review Classes vs Job Security](PICTURES/Frequency_of_Job_security_against_Salary_change.png)
 
 - **Filling Missing Data**: This is a crucial part of the model creation purpose, Models cannot thoroughly learn from Nan values. The method of filling is crucial. Mode was used for non-numerical values and median for numerical datatypes.
 
@@ -44,14 +47,14 @@ ROC(Receiver Operating Charactersistic) curve shows the trade-off between sensit
 
 Feature importances shows how much each column contributed to the final prediction.
 
-![Feature Importances](PICTURES/features_importances.png)
+![Feature Importances](PICTURES/feature_importance.png)
 
 
 **Cross-Validation Evaluation**
 
 Cross validation is applied to Accuracy, Precision, Recall and F1-score to show how much our model actually learns from our data by sampling it different ways and training and testing.
 
-![Cross-Validation](PICTURES/cross_val_metric.png)
+![Cross-Validation](PICTURES/cross_validation_metrics.png)
 
 
 ### Installation
