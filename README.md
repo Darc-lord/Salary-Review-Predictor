@@ -69,12 +69,7 @@ Cross validation is applied to Accuracy, Precision, Recall and F1-score to show 
 	```bash
 	 https://www.anaconda.com/download
 	```
-
-### Files
-1. **Anaconda**
-	```bash
-	 https://www.anaconda.com/download
-	```
+ 
 
 ### Files
 1. **Clone The Repository**
